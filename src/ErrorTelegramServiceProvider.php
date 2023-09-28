@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Khamdullaevuz\ErrorTelegram\Exceptions\ErrorTelegramHandler;
 
-class PaymeServiceProvider extends ServiceProvider
+class ErrorTelegramServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
